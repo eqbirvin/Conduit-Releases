@@ -1,3 +1,12 @@
 ##Header##
 
 This repo is for the updates and releases to Conduit app.
+
+Conduit - A Communications Consolidation App
+
+Conduit is designed to get your messages and notifcations for communications apps into a single place. This way you can action your messages quickly in one place and have cronological timeline of when things came in and search for previous communications in one place. 
+
+By design, Conduit is intended to be on device and not use APIs from cummunication apps instead it relies on notifcations posted by the supported channels/apps. 
+
+Features:
+- 
