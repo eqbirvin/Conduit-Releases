@@ -9,7 +9,17 @@ Conduit is designed to get your messages and notifcations for communications app
 By design, Conduit is intended to be on device and not use APIs from cummunication apps instead it relies on notifcations posted by the supported channels/apps. 
 
 Features:
-- 
+- Combine messages and notifcations from the supported channels into a single "Hub".
+- Todo Mode to filter out anything other than unread
+- Custom Views
+- Channel dock with unread badges. 
+- Search all messages/notifcations for supported channels
+- Quickly action notifcations with the channels notifcation's action chips being avialable within Conduit
+- Block/hide notifcations with title matching and/or nody content matching
+- Highly customizable
++ Swipe gestures
++ Theme options (Includes AMOLED black with or without monochrome icons)
++ Dock customization - Scoll indicator, size
 
 How OTA and Updates are Handled:
 
