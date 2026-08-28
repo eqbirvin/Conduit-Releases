@@ -10,3 +10,7 @@ By design, Conduit is intended to be on device and not use APIs from cummunicati
 
 Features:
 - 
+
+How OTA and Updates are Handled:
+
+Updates in Conduit work through a custom GitHub flow. I locally build and test releases on my own device (Pixel 10 Pro) and sometimes another test device (Titan Slim). Then once I want to publish the new APK file/update, I push it to a public GitHub repo (this one :)). Inside the app, a user configuratable (in settings) background worker periodically checks GitHub's API to ping this repo to see if a newer version tag exists; if it does have an update, it shows an "Update Available" button to the left of the "Conduit" text at the top of the main apps page. When user taps it, Android's native DownloadManager quietly downloads the APK in the background, and then immediately triggers the standard Android package installer prompt to update Conduit.
