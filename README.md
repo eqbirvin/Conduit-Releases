@@ -1,5 +1,3 @@
-
-
 # **Conduit**
 
 A communications consolidation app for Android - A single feed for your messages and alerts.
@@ -14,30 +12,64 @@ This repo hosts the releases and updates for the app. I have another repo which 
 
 ### Screenshots
 
-
-
 ### Features
 
 - Combine messages and notifications from supported channels into a single place
+
 - Todo Mode to filter out everything except unread to quickly action
+
 - Dock with unread badges
+  
   - Change Dock Size
   - Change scroll-ability indicator
-- Custom views
+
+- Custom views 
+  
   - Custom views allow you to narrow down to just specific apps while in that view
   - Filter out all apps other than the ones included in the view from the app dock
   - Set a custom view as the default view for Conduit
+
 - Search across all messages and notifications for supported channels
+
 - Action notifications quickly, with each channel's own notification action chips available inside Conduit
+  
   - Because of this, you may be able to customize the action buttons on the channels notifications depending on if the app supports it
+
 - Block or hide notifications by matching on title, body content, or both
+
 - Customizable:
+
 - Swipe actions on message and notification entries
+  
   - Swipe left, swipe right 
+
 - Theme options
+  
   - Dark/Light
   - AMOLED black
     - With or without monochrome icons
+
+### Supported Channels (Feel free to request more!)
+
+- Google Messages
+- Gmail
+- Spark Email
+- Outlook
+- Snapchat
+- LinkedIn
+- Instagram
+- System Phone (Google / Samsung Dialer)
+- Truecaller
+- Telegram
+- Telegram X
+- Reddit
+- Steam
+- Steam Chat
+- Facebook
+- Facebook Messenger
+- Twitter (X)
+- Microsoft Teams
+- Airbnb
 
 ### How Updates Work
 
@@ -48,7 +80,3 @@ Inside the app, a background worker checks the GitHub API for a newer version ta
 ### Why I built "Conduit"
 
 Back in the day I used a Blackberry as my primary device - loved the focus it had on quickly getting through your comms and combining things into a single hub. Eventually, moved around different smart phones (always Android!) and then Blackberry came out out with the Blackberry Priv which I loved despite its faults. The standout feature for me was the Blackberry Hub. Once again, was able to get everything in one place and quickly move through items. Plus customize the view I was using to get through comms. I know that Blackberry still has that in some form with Inbox but I wanted to take a fundamentally different approach with keeping everything on device without APIs needed to pick up messages and comms. I also wanted even more customization.
-
-
-
-
