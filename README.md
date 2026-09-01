@@ -19,11 +19,8 @@ This repo hosts the releases and updates for the app. I have another repo which 
 ### Features
 
 - Combine messages and notifications from supported channels into a single place
-
 - Todo Mode to filter out everything except unread to quickly action
-
 - Dock with unread badges
-  
   - Change Dock Size
   
   - Change scroll-ability indicator
