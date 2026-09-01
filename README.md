@@ -1,68 +1,73 @@
-##Header##
-
-This repo is for the updates and releases to Conduit app.
-
-Conduit - A Communications Consolidation App
-
-Conduit is designed to get your messages and notifcations for communications apps into a single place. This way you can action your messages quickly in one place and have cronological timeline of when things came in and search for previous communications in one place. 
-
-By design, Conduit is intended to be on device and not use APIs from cummunication apps instead it relies on notifcations posted by the supported channels/apps. 
-
-Features:
-- Combine messages and notifcations from the supported channels into a single "Hub".
-- Todo Mode to filter out anything other than unread
-- Custom Views
-- Channel dock with unread badges. 
-- Search all messages/notifcations for supported channels
-- Quickly action notifcations with the channels notifcation's action chips being avialable within Conduit
-- Block/hide notifcations with title matching and/or nody content matching
-- Highly customizable
-+ Swipe gestures
-+ Theme options (Includes AMOLED black with or without monochrome icons)
-+ Dock customization - Scoll indicator, size
-
-How OTA and Updates are Handled:
-
-Updates in Conduit work through a custom GitHub flow. I locally build and test releases on my own device (Pixel 10 Pro) and sometimes another test device (Titan Slim). Then once I want to publish the new APK file/update, I push it to a public GitHub repo (this one :)). Inside the app, a user configuratable (in settings) background worker periodically checks GitHub's API to ping this repo to see if a newer version tag exists; if it does have an update, it shows an "Update Available" button to the left of the "Conduit" text at the top of the main apps page. When user taps it, Android's native DownloadManager quietly downloads the APK in the background, and then immediately triggers the standard Android package installer prompt to update Conduit.
 
 
-<div align="center">
-Conduit
+# **Conduit**
 
-A communications consolidation app for Android
-
-Show Image Show Image Show Image
+A communications consolidation app for Android - A single feed for your messages and alerts.
 
 </div>
 
-Conduit pulls messages and notifications from your communication apps into a single place, so you can action them quickly without app hopping, see a chronological timeline of when things came in, and search past communications from one spot.
+Conduit pulls messages and notifications from your communication apps into a single place, so you can action them quickly without app hopping, see a chronological timeline of when things came in, and search past communications and notifcations from one spot.
 
-This repo hosts the releases and updates for the app.
+This repo hosts the releases and updates for the app. I have another repo which is the actually app code. 
 
-[!NOTE] Conduit is on-device by design. It does not use APIs from the communication apps it supports. Instead, it relies on the notifications those apps post.
+> Conduit is on-device by design. It does not use APIs from the communication apps it supports. Instead, it relies on the notifications those apps post.
 
-Features
-Combine messages and notifications from supported channels into a single Hub
-Todo Mode to filter out everything except unread
-Custom views
-Channel dock with unread badges
-Search across all messages and notifications for supported channels
-Action notifications quickly, with each channel's own notification action chips available inside Conduit
-Block or hide notifications by matching on title, body content, or both
-Highly customizable:
-Swipe gestures
-Theme options, including AMOLED black with or without monochrome icons
-Dock customization for scroll indicator and size
-How Updates Work
+### Screenshots
 
-Conduit uses a custom GitHub flow rather than an app store.
 
-Releases are built and tested locally on a Pixel 10 Pro, with a Titan Slim as a secondary test device. Once a build is ready to publish, the APK is pushed to this repo.
 
-Inside the app, a background worker checks the GitHub API for a newer version tag on an interval you can configure in Settings. If an update exists, an Update Available button appears to the left of the Conduit title at the top of the main page. Tapping it hands off to Android's native DownloadManager, which quietly downloads the APK in the background and then triggers the standard Android package installer prompt.
+### Features
 
-Why "Conduit"?
+- Combine messages and notifications from supported channels into a single place
 
-Back in my first major IT job I installed low voltage systems, and
+- Todo Mode to filter out everything except unread to quickly action
 
-<!-- TODO: this section is unfinished. The original note cut off mid-sentence. -->
+- Dock with unread badges
+  
+  - Change Dock Size
+  
+  - Change scroll-ability indicator
+
+- Custom views
+  
+  - Custom views allow you to narrow down to just specific apps while in that view
+  
+  - Filter out all apps other than the ones included in the view from the app dock
+  
+  - Set a custom view as the default view for Conduit
+
+- Search across all messages and notifications for supported channels
+
+- Action notifications quickly, with each channel's own notification action chips available inside Conduit
+  
+  - Because of this, you may be able to customize the action buttons on the channels notifications depending on if the app supports it
+
+- Block or hide notifications by matching on title, body content, or both
+
+- Customizable:
+
+- Swipe actions on message and notification entries
+  
+  - Swipe left, swipe right 
+
+- Theme options
+  
+  - Dark/Light
+  
+  - AMOLED black
+    
+    - With or without monochrome icons
+
+### How Updates Work
+
+Releases are built and tested locally on my Pixel 10 Pro, with a Titan Slim as a secondary test device. Once a build is ready to publish, the APK is pushed to this repo.
+
+Inside the app, a background worker checks the GitHub API for a newer version tag on an interval you can configure in Settings. If an update exists, an Update Available button appears to the left of the Conduit title at the top of the main page. Tapping it hands off to Android's native DownloadManager, which quietly downloads the APK in the background (posts a notifcation) and then triggers the standard Android package installer prompt.
+
+### Why I built "Conduit"
+
+Back in the day I used a Blackberry as my primary device - loved the focus it had on quickly getting through your comms and combining things into a single hub. Eventually, moved around different smart phones (always Android!) and then Blackberry came out out with the Blackberry Priv which I loved despite its faults. The standout feature for me was the Blackberry Hub. Once again, was able to get everything in one place and quickly move through items. Plus customize the view I was using to get through comms. I know that Blackberry still has that in some form with Inbox but I wanted to take a fundamentally different approach with keeping everything on device without APIs needed to pick up messages and comms. I also wanted even more customization.
+
+
+
+
