@@ -20,8 +20,6 @@ This repo hosts the releases and updates for the app. I have another repo which 
 
 ### Screenshots
 
-## Screenshots
-
 <img src="ConduitScreenshots/Main.png" width="500" alt="Conduit">
 
 <details>
