@@ -157,9 +157,13 @@ Ignored and blocked notifications:
 
 I built Conduit in a way for it to "integrate" into the already existing Android settings and features as much as possible. This can be seen in mirroring the native notifications, their action chips, utilizing native Android snooze, expand and compact notifications like native notification shade, familiar app dock, etc. That is always one of my guiding principles with the strategy of Conduit as I look at adding new features.
 
-#### Why I built "Conduit"
+#### Why I built Conduit
 
 Back in the day I used a Blackberry as my primary device - loved the focus it had on quickly getting through your comms and combining things into a single hub. Eventually, moved around different smart phones (always Android!) and then Blackberry came out with the Blackberry Priv which I loved despite its faults. The standout feature for me was the Blackberry Hub. Once again, was able to get everything in one place and quickly move through items. Plus customize the view I was using to get through comms. I know that Blackberry still has that in some form with Inbox but I wanted to take a fundamentally different approach with keeping everything on device without APIs needed to pick up messages and comms. I also wanted even more customization.
+
+#### Where the name came from
+
+After I started building this app, I needed a name obviously. When I first started working I was installing low voltage cable such as POE cameras, VoIP phones, etc. Conduit stuck out to me because that is the piping and channels we used to get cable safely (and up to code) between rooms. Felt fitting because we are utilizing a pipe to bring in comms from other apps. I was also using a blackberry still during my first job so it fit :) 
 
 #### How Updates Work
 
