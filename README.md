@@ -22,16 +22,16 @@ This repo hosts the releases and updates for the app. I have another repo which 
 
 ## Screenshots
 
-![Conduit](ConduitScreenshots/Main.png)
+<img src="ConduitScreenshots/Main.png" width="500" alt="Conduit">
 
 <details>
 <summary>Custom Views</summary>
 
 | Calls & Texts | Social |
 | :---: | :---: |
-| ![Calls and Texts](ConduitScreenshots/CustomViews_CallsandTexts.png) | ![Social](ConduitScreenshots/CustomViews_Social.png) |
+| ![Calls and Texts](ConduitScreenshots/CustomViews.CallsandTexts.png) | ![Social](ConduitScreenshots/CustomViews.Social.png) |
 | Emails & Professional | All But Emails (unfiltered dock) |
-| ![Emails and Professional](ConduitScreenshots/CustomViews_EmailsandProfessional.png) | ![All But Emails](ConduitScreenshots/CustomViews_AllButEmail_nofiltered_doc.png) |
+| ![Emails and Professional](ConduitScreenshots/CustomViews.EmailsandProfessional.png) | ![All But Emails](ConduitScreenshots/CustomViews.AllButEmail.nofiltered.doc.png) |
 
 </details>
 
@@ -40,7 +40,7 @@ This repo hosts the releases and updates for the app. I have another repo which 
 
 | Todo Mode | AMOLED Black | AMOLED + Monochrome Icons |
 | :---: | :---: | :---: |
-| ![Todo Mode](ConduitScreenshots/Todo_Mode.png) | ![AMOLED theme](ConduitScreenshots/AMOLED_Theme.png) | ![AMOLED monochrome](ConduitScreenshots/AMOLED_Theme_Monochrome.png) |
+| ![Todo Mode](ConduitScreenshots/Todo.Mode.png) | ![AMOLED theme](ConduitScreenshots/AMOLED.Theme.png) | ![AMOLED monochrome](ConduitScreenshots/AMOLED.Theme.Monochrome.png) |
 
 </details>
 
@@ -49,15 +49,15 @@ This repo hosts the releases and updates for the app. I have another repo which 
 
 Unread badges per channel:
 
-![Dock unread count](ConduitScreenshots/Dock_UnreadCount.png)
+![Dock unread count](ConduitScreenshots/Dock.UnreadCount.png)
 
 Selected app state:
 
-![Dock app selected](ConduitScreenshots/Dock_AppSelected.png)
+![Dock app selected](ConduitScreenshots/Dock.AppSelected.png)
 
 Scrollability fade indicator:
 
-![Dock fade gradient](ConduitScreenshots/Dock_Fade_Gradiant.png)
+![Dock fade gradient](ConduitScreenshots/Dock.Fade.Gradiant.png)
 
 </details>
 
@@ -66,7 +66,7 @@ Scrollability fade indicator:
 
 | Channel toggles | Supported apps and package names |
 | :---: | :---: |
-| ![Channel toggles](ConduitScreenshots/Channels_Toggles.png) | ![Supported apps](ConduitScreenshots/Supported_Apps_Popup.png) |
+| ![Channel toggles](ConduitScreenshots/Channels.Toggles.png) | ![Supported apps](ConduitScreenshots/Supported.Apps.Popup.png) |
 
 </details>
 
@@ -75,19 +75,19 @@ Scrollability fade indicator:
 
 | Updates and theme | Layout and swipe gestures |
 | :---: | :---: |
-| ![Settings top](ConduitScreenshots/Settings_Top.png) | ![Layout and swipe](ConduitScreenshots/Settings_Layout_Swipe.png) |
+| ![Settings top](ConduitScreenshots/Settings.Top.png) | ![Layout and swipe](ConduitScreenshots/Settings.Layout.Swipe.png) |
 
 App launcher icon:
 
-![App launcher icon](ConduitScreenshots/Settings_App_Icon.png)
+![App launcher icon](ConduitScreenshots/Settings.App.Icon.png)
 
 Notification retention:
 
-![Notification retention](ConduitScreenshots/Retention_Setting.png)
+![Notification retention](ConduitScreenshots/Retention.Setting.png)
 
 Ignored and blocked notifications:
 
-![Ignored notifications](ConduitScreenshots/Ignored_Blocked.png)
+![Ignored notifications](ConduitScreenshots/Ignored.Blocked.png)
 
 </details>
 
