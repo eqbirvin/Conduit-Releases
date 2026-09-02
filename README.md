@@ -96,6 +96,7 @@ Ignored and blocked notifications:
 ### Features
 
 - Combine messages and notifications from supported channels into a single place
+- Work Profile Apps support
 - Widget support
   - Complete mirror of unactioned messages/notifications in Conduit onto your homescreen
   - Custom Views Widget for just displaying unactioned messages/notifications for specific apps in your Custom Views (read on for details about custom views)
