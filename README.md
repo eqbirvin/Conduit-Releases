@@ -126,7 +126,7 @@ Ignored and blocked notifications:
   - Daily, Every 3 Days, Weekly, Disabled
   - Include manual check
 
-Customizable:
+**Customizable:**
 
 - Default to Todo Mode
 - Minimize Notification Icons (gives you more space for text, useful for small screens like Titan Elite 2, Titan 1/2/Slim/etc, Clicks, Minimal Phone 2)
@@ -137,7 +137,7 @@ Customizable:
   - AMOLED black
     - With or without monochrome icons
 
-Seriously Beta:
+***Seriously* Beta:**
 
 - Hangar - quickly get to chats and notifications from a sidebar handle
 - App Bundles - Quickly launch your notes, recorder, AI apps, and compose
