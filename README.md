@@ -153,15 +153,18 @@ Ignored and blocked notifications:
 | Professional | Gmail, Spark Email, Outlook, Microsoft Teams, LinkedIn |
 | Misc | Steam, Steam Chat, Airbnb |
 
-#### How Updates Work
+#### Methodology and product strategy with Conduit
 
-Releases are built and tested locally on my Pixel 10 Pro, with a Titan Slim as a secondary test device. Once a build is ready to publish, the APK is pushed to this repo.
-
-Inside the app, a background worker checks the GitHub API for a newer version tag on an interval you can configure in Settings. If an update exists, an Update Available button appears to the left of the Conduit title at the top of the main page. Tapping it hands off to Android's native DownloadManager, which quietly downloads the APK in the background (posts a notifcation) and then triggers the standard Android package installer prompt.
+I built Conduit in a way for it to "integrate" into the already existing Android settings and features as much as possible. This can be seen in mirroring the native notifications, their action chips, utilizing native Android snooze, expand and compact notifications like native notification shade, familiar app dock, etc. That is always one of my guiding principles with the strategy of Conduit as I look at adding new features.
 
 #### Why I built "Conduit"
 
-Back in the day I used a Blackberry as my primary device - loved the focus it had on quickly getting through your comms and combining things into a single hub. Eventually, moved around different smart phones (always Android!) and then Blackberry came out out with the Blackberry Priv which I loved despite its faults. The standout feature for me was the Blackberry Hub. Once again, was able to get everything in one place and quickly move through items. Plus customize the view I was using to get through comms. I know that Blackberry still has that in some form with Inbox but I wanted to take a fundamentally different approach with keeping everything on device without APIs needed to pick up messages and comms. I also wanted even more customization.
+Back in the day I used a Blackberry as my primary device - loved the focus it had on quickly getting through your comms and combining things into a single hub. Eventually, moved around different smart phones (always Android!) and then Blackberry came out with the Blackberry Priv which I loved despite its faults. The standout feature for me was the Blackberry Hub. Once again, was able to get everything in one place and quickly move through items. Plus customize the view I was using to get through comms. I know that Blackberry still has that in some form with Inbox but I wanted to take a fundamentally different approach with keeping everything on device without APIs needed to pick up messages and comms. I also wanted even more customization.
+
+#### How Updates Work
+
+Releases are built and tested locally on my Pixel 10 Pro, with a Titan Slim as a secondary test device. Once a build is ready to publish, the APK is pushed to this repo.
+Inside the app, a background worker checks the GitHub API for a newer version tag on an interval you can configure in Settings. If an update exists, an Update Available button appears to the left of the Conduit title at the top of the main page. Tapping it hands off to Android's native DownloadManager, which quietly downloads the APK in the background (posts a notification) and then triggers the standard Android package installer prompt.
 
 ### Reporting an Issue or Feature Request
 
