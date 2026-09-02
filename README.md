@@ -20,7 +20,76 @@ This repo hosts the releases and updates for the app. I have another repo which 
 
 ### Screenshots
 
+## Screenshots
 
+![Conduit](ConduitScreenshots/Main.png)
+
+<details>
+<summary>Custom Views</summary>
+
+| Calls & Texts | Social |
+| :---: | :---: |
+| ![Calls and Texts](ConduitScreenshots/CustomViews_CallsandTexts.png) | ![Social](ConduitScreenshots/CustomViews_Social.png) |
+| Emails & Professional | All But Emails (unfiltered dock) |
+| ![Emails and Professional](ConduitScreenshots/CustomViews_EmailsandProfessional.png) | ![All But Emails](ConduitScreenshots/CustomViews_AllButEmail_nofiltered_doc.png) |
+
+</details>
+
+<details>
+<summary>Todo Mode and Themes</summary>
+
+| Todo Mode | AMOLED Black | AMOLED + Monochrome Icons |
+| :---: | :---: | :---: |
+| ![Todo Mode](ConduitScreenshots/Todo_Mode.png) | ![AMOLED theme](ConduitScreenshots/AMOLED_Theme.png) | ![AMOLED monochrome](ConduitScreenshots/AMOLED_Theme_Monochrome.png) |
+
+</details>
+
+<details>
+<summary>Unread Dock</summary>
+
+Unread badges per channel:
+
+![Dock unread count](ConduitScreenshots/Dock_UnreadCount.png)
+
+Selected app state:
+
+![Dock app selected](ConduitScreenshots/Dock_AppSelected.png)
+
+Scrollability fade indicator:
+
+![Dock fade gradient](ConduitScreenshots/Dock_Fade_Gradiant.png)
+
+</details>
+
+<details>
+<summary>Channels and Supported Apps</summary>
+
+| Channel toggles | Supported apps and package names |
+| :---: | :---: |
+| ![Channel toggles](ConduitScreenshots/Channels_Toggles.png) | ![Supported apps](ConduitScreenshots/Supported_Apps_Popup.png) |
+
+</details>
+
+<details>
+<summary>Settings</summary>
+
+| Updates and theme | Layout and swipe gestures |
+| :---: | :---: |
+| ![Settings top](ConduitScreenshots/Settings_Top.png) | ![Layout and swipe](ConduitScreenshots/Settings_Layout_Swipe.png) |
+
+App launcher icon:
+
+![App launcher icon](ConduitScreenshots/Settings_App_Icon.png)
+
+Notification retention:
+
+![Notification retention](ConduitScreenshots/Retention_Setting.png)
+
+Ignored and blocked notifications:
+
+![Ignored notifications](ConduitScreenshots/Ignored_Blocked.png)
+
+</details>
 
 ### Features
 
