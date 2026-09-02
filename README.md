@@ -8,7 +8,7 @@ Conduit pulls messages and notifications from your communication apps into a sin
 
 Conduit is on-device by design. It does not use APIs from the communication apps it supports. Instead, it relies on the notifications those apps post.
 
-This repo hosts the releases and updates for the app. I have another repo which is the actually app code. 
+This repo hosts the releases and updates for the app. I have another repo which is the actual source [Conduit](https://github.com/eqbirvin/Conduit). 
 
 >Hello! Before continuing, I just want to inform you that Conduit is a 85-90% AI coded app. I fully understand that is not every persons cup of tea so I want to be upfront.
 >
