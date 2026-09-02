@@ -75,25 +75,12 @@ Seriously Beta:
 
 ### Supported Channels (Feel free to request more!)
 
-- Google Messages
-- Gmail
-- Spark Email
-- Outlook
-- Snapchat
-- LinkedIn
-- Instagram
-- System Phone (Google / Samsung Dialer)
-- Truecaller
-- Telegram
-- Telegram X
-- Reddit
-- Steam
-- Steam Chat
-- Facebook
-- Facebook Messenger
-- Twitter (X)
-- Microsoft Teams
-- Airbnb
+| Category | Channels |
+| :--- | :--- |
+| Basic Comms | Google Messages, System Phone (Google / Samsung Dialer), Truecaller |
+| Social Media | Facebook, Facebook Messenger, Instagram, Snapchat, Twitter (X), Reddit, Telegram, Telegram X |
+| Professional | Gmail, Spark Email, Outlook, Microsoft Teams, LinkedIn |
+| Misc | Steam, Steam Chat, Airbnb |
 
 #### How Updates Work
 
