@@ -166,6 +166,10 @@ Back in the day I used a Blackberry as my primary device - loved the focus it ha
 
 After I started building this app, I needed a name obviously. When I first started working I was installing low voltage cable such as POE cameras, VoIP phones, etc. Conduit stuck out to me because that is the piping and channels we used to get cable safely (and up to code) between rooms. Felt fitting because we are utilizing a pipe to bring in comms from other apps. I was also using a blackberry still during my first job so it fit :) 
 
+#### Classifying Notifcations
+
+Conduit is built to automatically analyze the properties of incoming notifications to determine what "kind" of notification it is (example, MESSAGE, CALL, or OTHER). To do this, it checks if the notification uses Android's native MessagingStyle, has a "Direct Reply" action, or uses the CATEGORY_MESSAGE tag.
+
 #### How Updates Work
 
 Releases are built and tested locally on my Pixel 10 Pro, with a Titan Slim as a secondary test device. Once a build is ready to publish, the APK is pushed to this repo.
