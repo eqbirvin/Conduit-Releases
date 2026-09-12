@@ -149,9 +149,9 @@ Ignored and blocked notifications:
 
 | Category | Channels |
 | :--- | :--- |
-| Basic Comms | Google Messages, System Phone (Google / Samsung Dialer), Truecaller |
-| Social Media | Facebook, Facebook Messenger, Instagram, Snapchat, Twitter (X), Reddit, Telegram, Telegram X |
-| Professional | Gmail, Spark Email, Outlook, Microsoft Teams, LinkedIn |
+| Basic Comms | Google Messages, System Phone (Google / Samsung Dialer), Truecaller, WhatsApp (+Business), Beeper (Beta, report issues) |
+| Social Media | Facebook, Facebook Messenger, Instagram, Snapchat, Twitter (X), Reddit, Telegram, Telegram X, Discord (+ Canary) |
+| Professional | Gmail, Spark Email, Outlook, Microsoft Teams, LinkedIn, BlackBerry Inbox |
 | Misc | Steam, Steam Chat, Airbnb |
 
 #### Methodology and product strategy with Conduit
