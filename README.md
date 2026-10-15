@@ -149,10 +149,10 @@ Ignored and blocked notifications:
 
 | Category | Channels |
 | :--- | :--- |
-| Basic Comms | Google Messages, System Phone (Google / Samsung Dialer), Truecaller, WhatsApp (+Business), Beeper (Beta, report issues) |
-| Social Media | Facebook, Facebook Messenger, Instagram, Snapchat, Twitter (X), Reddit, Telegram, Telegram X, Discord (+ Canary) |
-| Professional | Gmail, Spark Email, Outlook, Microsoft Teams, LinkedIn, BlackBerry Inbox |
-| Misc | Steam, Steam Chat, Airbnb |
+| Basic Comms | Stock / Core: Google Messages, Phone (Google Dialer, Samsung Dialer, AOSP, Telecom, Google Fi), Truecaller, WhatsApp, WhatsApp Business, Beeper (Desktop, IMA, Play Store) : SMS / RCS Alternatives: Textra, Pulse SMS, Chomp SMS, QKSMS, QUIK SMS (Play Store & F-Droid), Messages (by Anindra), Simple SMS Messenger (Simple Mobile Tools & Fossify), Mood Messenger, YAATA : General & Privacy Messengers: Signal, Viber, GroupMe, Skype, BlueBubbles, AirMessage, Voxer, Zello |
+| Social Media | Discord (+ Canary), Facebook, Messenger, Instagram, Reddit, Snapchat, Telegram, Telegram X, TikTok (Global, Regional, Go), Twitch (Viewer & App), Twitter (X) |
+| Professional | Workplace Collaboration: Microsoft Teams, Slack, Google Chat, Zoom, Google Meet (Modern & Legacy), LinkedIn, BlackBerry Inbox : Email Clients: Gmail, Outlook, Spark, Thunderbird (+ Beta), FairEmail, K-9 Mail, Email by Edison, Proton Mail, Yahoo Mail (+ Go), Spike Email |
+| Misc | Airbnb (default off), Steam, Steam Chat |
 
 #### Methodology and product strategy with Conduit
 
